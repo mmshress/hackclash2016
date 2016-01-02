@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "Emergencies">
+        <item>Got In An Accident</item>
+        <item>Need A Ride</item>
+        <item>Need Blood</item>
+        <item>Run Out of Petrol</item>
+    </string-array>
+</resources>

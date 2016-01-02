@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Microsoft.Office.Interop.PowerPoint;
+using PowerPoint = Microsoft.Office.Interop.PowerPoint;
 
 namespace ScreenShare
 {
@@ -24,6 +24,9 @@ namespace ScreenShare
         public MainWindow()
         {
             InitializeComponent();
+            var app = new PowerPoint.Application();
+            var presentations = app.Presentations;
+
         }
     }
 }

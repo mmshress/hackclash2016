@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Drawing;
+using System.Diagnostics;
 namespace HackClash2016
 {
     /// <summary>
@@ -23,6 +24,12 @@ namespace HackClash2016
         public MainWindow()
         {
             InitializeComponent();
+            Process[] processList = Process.GetProcesses();
+            foreach (Process process in processList)
+            {
+                Console.WriteLine(process.StartTime);
+            }
+            Console.ReadLine();
         }
     }
 }

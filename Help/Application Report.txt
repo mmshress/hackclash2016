@@ -1,0 +1,5 @@
+Our app, Help! is a simple application built for Android handsets. It basically lets you, at the press of a button, send your location data to other people who use the app, along with your reason for requiring help. 
+
+To use this app on your phone, download the GitHub code using the “Download As ZIP” button, then extract the downloaded ZIP. Copy the “Help!.apk” file into your Android phone, and using a file manager, open the apk file. Install the application, and you can launch it from your default application launcher.
+
+
